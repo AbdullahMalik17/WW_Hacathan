@@ -14,7 +14,10 @@
       "Bash(echo Exit: $?:*)",
       "Bash(kill:*)",
       "Bash(grep:*)",
-      "mcp__serena__find_file"
+      "mcp__serena__find_file",
+      "Bash(./node_modules/.bin/next build:*)",
+      "Bash(gh auth:*)",
+      "Bash(ssh:*)"
     ]
   }
 }
