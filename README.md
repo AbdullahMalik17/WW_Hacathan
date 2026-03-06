@@ -12,14 +12,14 @@ Montgomery publishes thousands of public safety records annually via its Open Da
 
 ## 🟢 The Solution
 SafeMGM bridges the gap between raw data and human safety through four core pillars:
-1.  **AI Intelligence Terminal:** A streaming chat interface powered by **Google Gemini 1.5 Flash** that analyzes local CSV data to answer natural language questions about safety.
+1.  **AI Intelligence Terminal:** A streaming chat interface powered by **Google Gemini 2.5 Flash** that analyzes local CSV data to answer natural language questions about safety.
 2.  **Geospatial Command Center:** An interactive, dark-themed map using **Leaflet** that visualizes incident density and severity across Montgomery's neighborhoods.
 3.  **Bright Data News Enrichment:** Real-time news scraping via **Bright Data SERP API** that provides live context (e.g., community meetings, police reports) alongside statistical data.
 4.  **Trend Analytics:** Visual breakdown of 911 vs. Crime trends over time using **Recharts**, helping identify seasonal spikes and safety improvements.
 
 ## ⚡ Technical Stack
 - **Frontend:** Next.js 15 (App Router), TypeScript, Tailwind CSS, shadcn/ui.
-- **AI:** Vercel AI SDK, Google Gemini 1.5 Flash (via `@ai-sdk/google`).
+- **AI:** Vercel AI SDK, Google Gemini 2.5 Flash (via `@ai-sdk/google`).
 - **Data Enrichment:** Bright Data SERP API & Web Unlocker.
 - **Mapping:** React Leaflet + CartoDB Dark Matter.
 - **Visualization:** Recharts.
@@ -48,5 +48,5 @@ SafeMGM is designed as a **City-Agnostic SaaS**.
 ### Powered By
 - **City of Montgomery Open Data**
 - **Bright Data** (SERP API & Web Unlocker)
-- **Google Gemini** (Gemini 1.5 Flash)
+- **Google Gemini** (Gemini 2.5 Flash)
 - **Vercel**

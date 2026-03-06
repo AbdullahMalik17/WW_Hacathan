@@ -126,8 +126,8 @@ description: "Task list for Feature 1 — Project Foundation & Data Pipeline"
 **Purpose**: Final validation and documentation before committing Feature 1.
 
 - [x] T029 [P] If sample data was used (real Montgomery files unavailable): create `DECISIONS.md` at repo root documenting: "Montgomery open data CSV files were unavailable at build time. Realistic sample data with 200+ rows and matching schema was generated. Column names match the expected portal format. Live data can be substituted by replacing files in `src/data/`."
-- [ ] T030 [P] Run `npm run build` — verify production build succeeds with zero TypeScript errors and zero Next.js warnings
-- [ ] T031 Final integration check: start `npm run dev` → verify `GET /api/data?dataset=911&limit=10` returns data → verify `buildAIContext()` output is under 50,000 chars → verify `.env.example` is committed → verify `.env.local` is NOT committed
+- [x] T030 [P] Run `npm run build` — verify production build succeeds with zero TypeScript errors and zero Next.js warnings
+- [x] T031 Final integration check: start `npm run dev` → verify `GET /api/data?dataset=911&limit=10` returns data → verify `buildAIContext()` output is under 50,000 chars → verify `.env.example` is committed → verify `.env.local` is NOT committed
 
 ---
 

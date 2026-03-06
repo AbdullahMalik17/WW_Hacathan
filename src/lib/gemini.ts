@@ -4,7 +4,7 @@ import type { ModelMessage } from "ai";
 
 // Initialize the Google Gemini provider
 // Model: gemini-1.5-flash (optimized for speed/cost)
-export const geminiModel = google("gemini-1.5-flash");
+export const geminiModel = google("gemini-2.5-flash-preview-05-20");
 
 export const SAFE_MGM_SYSTEM_PROMPT = `
 You are the SafeMGM Public Safety Analyst, a professional-but-approachable expert on public safety in Montgomery, Alabama. 
