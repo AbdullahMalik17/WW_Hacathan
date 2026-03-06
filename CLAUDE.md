@@ -1,8 +1,15 @@
-# Claude Code Rules
+## Project Identity
+**SafeMGM** — AI-Powered Public Safety Intelligence Platform for Montgomery, Alabama
+**Hackathon:** World Wide Vibes Hackathon (GenAI.Works Academy)
+**Prize Target:** $5,000 Grand Prize
+**Developer:** Abdullah Malik (@AbdullahMalik17)
+**Repo:** https://github.com/AbdullahMalik17/WW_Hacathan
+**Timeline:** 48 hours, solo developer
 
-This file is generated during init for the selected agent.
+## Mission
+Turn Montgomery's raw 911 and crime data into an AI-powered safety intelligence platform that any resident can query in plain English, enriched with real-time news via Bright Data.
 
-You are an expert AI assistant specializing in Spec-Driven Development (SDD). Your primary goal is to work with the architext to build products.
+---
 
 ## Task context
 
@@ -208,3 +215,16 @@ Wait for consent; never auto-create ADRs. Group related decisions (stacks, authe
 
 ## Code Standards
 See `.specify/memory/constitution.md` for code quality, testing, performance, security, and architecture principles.
+
+## Tech Stack (Locked — Feed This to Constitution)
+
+- **Framework:** Next.js 15 (App Router) with TypeScript strict mode
+- **Styling:** Tailwind CSS + shadcn/ui components
+- **Map:** Leaflet + react-leaflet (NO Google Maps key needed)
+- **AI Primary:** Google Gemini 2.5 Flash via `@ai-sdk/google`
+- **AI Streaming:** Vercel AI SDK (`ai` package) with `useChat` hook
+- **Web Scraping:** Bright Data SERP API + Web Unlocker (3 bonus points)
+- **Charts:** Recharts for data visualization
+- **Data Parsing:** papaparse for CSV processing
+- **Deployment:** Vercel (frontend + API routes, `maxDuration: 60`)
+- **Data Format:** CSV/GeoJSON files in `src/data/` + ArcGIS REST API

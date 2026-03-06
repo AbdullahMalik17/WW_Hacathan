@@ -1,8 +1,17 @@
 {
   "permissions": {
     "allow": [
-      "mcp__serena__list_dir",
-      "mcp__serena__activate_project"
+      "Bash(node:*)",
+      "Bash(npx create-next-app@latest:*)",
+      "Bash(npm install:*)",
+      "Bash(\"/mnt/e/WEB DEVELOPMENT/WW_Hacathan/.gitignore\":*)",
+      "Bash(do echo:*)",
+      "Bash(npx tsc:*)",
+      "Bash(timeout 20 npm run:*)",
+      "Bash(curl:*)",
+      "Bash(pkill:*)",
+      "Bash(npm run:*)",
+      "Bash(echo Exit: $?:*)"
     ]
   }
 }

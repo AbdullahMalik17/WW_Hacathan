@@ -1,0 +1,410 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.2999, 32.3668] },
+      "properties": { "incidentType": "BURGLARY", "date": "2024-01-05", "description": "Residential burglary reported on Oak Street" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.3050, 32.3720] },
+      "properties": { "incidentType": "THEFT", "date": "2024-01-08", "description": "Vehicle theft from parking lot" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.2870, 32.3580] },
+      "properties": { "incidentType": "ASSAULT", "date": "2024-01-12", "description": "Physical altercation near downtown area" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.3100, 32.3650] },
+      "properties": { "incidentType": "VANDALISM", "date": "2024-01-15", "description": "Graffiti on commercial building" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.2920, 32.3710] },
+      "properties": { "incidentType": "ROBBERY", "date": "2024-01-20", "description": "Armed robbery at convenience store" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.3010, 32.3600] },
+      "properties": { "incidentType": "DISTURBANCE", "date": "2024-01-25", "description": "Noise complaint escalated to disturbance" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.2850, 32.3750] },
+      "properties": { "incidentType": "BURGLARY", "date": "2024-02-03", "description": "Commercial break-in overnight" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.3080, 32.3690] },
+      "properties": { "incidentType": "THEFT", "date": "2024-02-07", "description": "Shoplifting incident at retail store" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.2960, 32.3540] },
+      "properties": { "incidentType": "ASSAULT", "date": "2024-02-11", "description": "Domestic disturbance involving assault" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.3120, 32.3780] },
+      "properties": { "incidentType": "VANDALISM", "date": "2024-02-14", "description": "Vehicle windows smashed in residential area" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.2780, 32.3620] },
+      "properties": { "incidentType": "ROBBERY", "date": "2024-02-18", "description": "Street robbery near transit stop" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.3030, 32.3800] },
+      "properties": { "incidentType": "DISTURBANCE", "date": "2024-02-22", "description": "Large crowd disturbance reported" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.2900, 32.3480] },
+      "properties": { "incidentType": "BURGLARY", "date": "2024-03-01", "description": "Garage break-in with tools stolen" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.3060, 32.3560] },
+      "properties": { "incidentType": "THEFT", "date": "2024-03-06", "description": "Package theft from front porch" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.2840, 32.3700] },
+      "properties": { "incidentType": "ASSAULT", "date": "2024-03-10", "description": "Bar fight resulting in injuries" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.3090, 32.3820] },
+      "properties": { "incidentType": "VANDALISM", "date": "2024-03-15", "description": "Public property defaced with spray paint" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.2970, 32.3670] },
+      "properties": { "incidentType": "ROBBERY", "date": "2024-03-19", "description": "Purse snatching reported by victim" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.3140, 32.3590] },
+      "properties": { "incidentType": "DISTURBANCE", "date": "2024-03-24", "description": "Neighbor dispute turned violent" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.2800, 32.3840] },
+      "properties": { "incidentType": "BURGLARY", "date": "2024-04-02", "description": "Apartment burglary while tenant at work" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.3020, 32.3730] },
+      "properties": { "incidentType": "THEFT", "date": "2024-04-08", "description": "Bicycle stolen from park rack" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.2880, 32.3510] },
+      "properties": { "incidentType": "ASSAULT", "date": "2024-04-13", "description": "Assault reported behind restaurant" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.3110, 32.3760] },
+      "properties": { "incidentType": "VANDALISM", "date": "2024-04-17", "description": "School property vandalized overnight" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.2940, 32.3850] },
+      "properties": { "incidentType": "ROBBERY", "date": "2024-04-22", "description": "Gas station robbery with weapon" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.3070, 32.3630] },
+      "properties": { "incidentType": "DISTURBANCE", "date": "2024-04-27", "description": "Domestic disturbance requiring police response" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.2820, 32.3580] },
+      "properties": { "incidentType": "BURGLARY", "date": "2024-05-04", "description": "Home burglary with electronics taken" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.3000, 32.3860] },
+      "properties": { "incidentType": "THEFT", "date": "2024-05-09", "description": "Catalytic converter theft from vehicle" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.2860, 32.3640] },
+      "properties": { "incidentType": "ASSAULT", "date": "2024-05-14", "description": "Assault in parking garage" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.3130, 32.3700] },
+      "properties": { "incidentType": "VANDALISM", "date": "2024-05-19", "description": "Mailboxes destroyed on residential block" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.2980, 32.3740] },
+      "properties": { "incidentType": "ROBBERY", "date": "2024-05-24", "description": "ATM robbery near bank branch" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.3040, 32.3520] },
+      "properties": { "incidentType": "DISTURBANCE", "date": "2024-05-29", "description": "Public intoxication leading to disturbance" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.2760, 32.3680] },
+      "properties": { "incidentType": "BURGLARY", "date": "2024-06-05", "description": "Storage unit break-in reported" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.3015, 32.3790] },
+      "properties": { "incidentType": "THEFT", "date": "2024-06-10", "description": "Wallet stolen at outdoor event" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.2905, 32.3460] },
+      "properties": { "incidentType": "ASSAULT", "date": "2024-06-15", "description": "Road rage escalated to physical assault" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.3085, 32.3870] },
+      "properties": { "incidentType": "VANDALISM", "date": "2024-06-20", "description": "Tires slashed on multiple vehicles" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.2835, 32.3810] },
+      "properties": { "incidentType": "ROBBERY", "date": "2024-06-25", "description": "Robbery at apartment complex lobby" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.3055, 32.3660] },
+      "properties": { "incidentType": "DISTURBANCE", "date": "2024-07-02", "description": "Loud party complaint became disturbance" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.2890, 32.3770] },
+      "properties": { "incidentType": "BURGLARY", "date": "2024-07-08", "description": "Daytime burglary through back door" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.3105, 32.3610] },
+      "properties": { "incidentType": "THEFT", "date": "2024-07-13", "description": "Laptop stolen from coffee shop" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.2750, 32.3720] },
+      "properties": { "incidentType": "ASSAULT", "date": "2024-07-18", "description": "Assault reported at recreation center" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.3025, 32.3550] },
+      "properties": { "incidentType": "VANDALISM", "date": "2024-07-23", "description": "Bus stop shelter windows broken" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.2915, 32.3890] },
+      "properties": { "incidentType": "ROBBERY", "date": "2024-07-28", "description": "Mugging reported near park at night" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.3075, 32.3740] },
+      "properties": { "incidentType": "DISTURBANCE", "date": "2024-08-04", "description": "Fight outside nightclub on Saturday" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.2865, 32.3490] },
+      "properties": { "incidentType": "BURGLARY", "date": "2024-08-10", "description": "Jewelry stolen in residential burglary" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.3115, 32.3830] },
+      "properties": { "incidentType": "THEFT", "date": "2024-08-15", "description": "Construction equipment stolen from site" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.2930, 32.3760] },
+      "properties": { "incidentType": "ASSAULT", "date": "2024-08-20", "description": "Assault following argument at market" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.2990, 32.3630] },
+      "properties": { "incidentType": "VANDALISM", "date": "2024-08-25", "description": "Fence damaged by vehicle impact" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.3045, 32.3880] },
+      "properties": { "incidentType": "ROBBERY", "date": "2024-09-01", "description": "Robbery at pharmacy near closing time" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.2810, 32.3660] },
+      "properties": { "incidentType": "DISTURBANCE", "date": "2024-09-06", "description": "Dispute over parking space escalated" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.3095, 32.3570] },
+      "properties": { "incidentType": "BURGLARY", "date": "2024-09-12", "description": "Office supply room burglarized" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.2870, 32.3830] },
+      "properties": { "incidentType": "THEFT", "date": "2024-09-17", "description": "Phone snatched from pedestrian" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.3005, 32.3700] },
+      "properties": { "incidentType": "ASSAULT", "date": "2024-09-22", "description": "Assault near bus station reported by witness" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.2770, 32.3580] },
+      "properties": { "incidentType": "VANDALISM", "date": "2024-09-27", "description": "Playground equipment vandalized" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.3135, 32.3780] },
+      "properties": { "incidentType": "ROBBERY", "date": "2024-10-04", "description": "Robbery of delivery driver reported" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.2950, 32.3900] },
+      "properties": { "incidentType": "DISTURBANCE", "date": "2024-10-09", "description": "Altercation at sports bar after game" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.3060, 32.3480] },
+      "properties": { "incidentType": "BURGLARY", "date": "2024-10-15", "description": "Vacant property burglarized for copper wiring" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.2895, 32.3640] },
+      "properties": { "incidentType": "THEFT", "date": "2024-10-20", "description": "Purse taken from unlocked car" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.3020, 32.3810] },
+      "properties": { "incidentType": "ASSAULT", "date": "2024-10-25", "description": "Assault at Halloween event reported" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.2840, 32.3730] },
+      "properties": { "incidentType": "VANDALISM", "date": "2024-11-01", "description": "Windows broken at vacant house" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.3100, 32.3660] },
+      "properties": { "incidentType": "ROBBERY", "date": "2024-11-06", "description": "Carjacking attempted near mall" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.2960, 32.3570] },
+      "properties": { "incidentType": "DISTURBANCE", "date": "2024-11-11", "description": "Veterans Day event disturbance reported" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.2780, 32.3800] },
+      "properties": { "incidentType": "BURGLARY", "date": "2024-11-17", "description": "Burglary while family at Thanksgiving dinner" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.3040, 32.3750] },
+      "properties": { "incidentType": "THEFT", "date": "2024-11-22", "description": "Shopping cart theft of merchandise" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.2910, 32.3880] },
+      "properties": { "incidentType": "ASSAULT", "date": "2024-11-28", "description": "Assault reported outside grocery store" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.3080, 32.3530] },
+      "properties": { "incidentType": "VANDALISM", "date": "2024-12-03", "description": "Holiday decorations destroyed at park" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.2850, 32.3690] },
+      "properties": { "incidentType": "ROBBERY", "date": "2024-12-08", "description": "Gift card robbery outside shopping center" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.3010, 32.3840] },
+      "properties": { "incidentType": "DISTURBANCE", "date": "2024-12-14", "description": "Holiday party disturbance at venue" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.2920, 32.3610] },
+      "properties": { "incidentType": "BURGLARY", "date": "2024-12-20", "description": "Christmas burglary with presents stolen" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.3120, 32.3720] },
+      "properties": { "incidentType": "THEFT", "date": "2024-12-26", "description": "Return fraud and merchandise theft" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.2760, 32.3650] },
+      "properties": { "incidentType": "ASSAULT", "date": "2024-12-31", "description": "New Year's Eve altercation downtown" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.3070, 32.3590] },
+      "properties": { "incidentType": "VANDALISM", "date": "2025-01-05", "description": "New Year vandalism of public art" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.2870, 32.3770] },
+      "properties": { "incidentType": "ROBBERY", "date": "2025-01-10", "description": "Armed robbery at check cashing store" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.2980, 32.3500] },
+      "properties": { "incidentType": "DISTURBANCE", "date": "2025-01-15", "description": "Dispute at laundromat became disturbance" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.3030, 32.3860] },
+      "properties": { "incidentType": "BURGLARY", "date": "2025-01-20", "description": "Garage door forced open, items stolen" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.2820, 32.3540] },
+      "properties": { "incidentType": "THEFT", "date": "2025-01-25", "description": "Tool theft from unlocked truck" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.3090, 32.3810] },
+      "properties": { "incidentType": "ASSAULT", "date": "2025-01-30", "description": "Assault near school campus reported" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.2940, 32.3720] },
+      "properties": { "incidentType": "VANDALISM", "date": "2025-02-04", "description": "Broken bottle graffiti at bus depot" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.3050, 32.3680] },
+      "properties": { "incidentType": "ROBBERY", "date": "2025-02-09", "description": "Robbery at fast food restaurant drive-through" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.2800, 32.3900] },
+      "properties": { "incidentType": "DISTURBANCE", "date": "2025-02-14", "description": "Valentine's Day domestic disturbance call" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.3110, 32.3560] },
+      "properties": { "incidentType": "BURGLARY", "date": "2025-02-19", "description": "Warehouse burglary with forklift reported" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.2870, 32.3460] },
+      "properties": { "incidentType": "THEFT", "date": "2025-02-24", "description": "Shoplifting at hardware store" }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-86.2995, 32.3780] },
+      "properties": { "incidentType": "ASSAULT", "date": "2025-02-28", "description": "Assault reported near community center" }
+    }
+  ]
+}
