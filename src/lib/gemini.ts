@@ -1,5 +1,6 @@
 import { google } from "@ai-sdk/google";
 import { generateText, streamText } from "ai";
+import type { ModelMessage } from "ai";
 
 // Initialize the Google Gemini provider
 // Model: gemini-1.5-flash (optimized for speed/cost)
@@ -25,7 +26,7 @@ Persona: Professional, analytical, helpful, and deeply knowledgeable about Montg
 export async function analyzeData(
   dataContext: string,
   newsContext: string,
-  messages: any[]
+  messages: ModelMessage[]
 ) {
   return streamText({
     model: geminiModel,

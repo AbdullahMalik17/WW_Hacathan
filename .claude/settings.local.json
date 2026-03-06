@@ -11,7 +11,10 @@
       "Bash(curl:*)",
       "Bash(pkill:*)",
       "Bash(npm run:*)",
-      "Bash(echo Exit: $?:*)"
+      "Bash(echo Exit: $?:*)",
+      "Bash(kill:*)",
+      "Bash(grep:*)",
+      "mcp__serena__find_file"
     ]
   }
 }

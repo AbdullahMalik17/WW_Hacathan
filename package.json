@@ -11,6 +11,8 @@
   "dependencies": {
     "@ai-sdk/google": "^3.0.43",
     "@ai-sdk/openai": "^3.0.41",
+    "@ai-sdk/react": "^3.0.118",
+    "@radix-ui/react-scroll-area": "^1.2.10",
     "@types/leaflet": "^1.9.21",
     "ai": "^6.0.116",
     "clsx": "^2.1.1",

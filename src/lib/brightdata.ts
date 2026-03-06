@@ -39,7 +39,7 @@ export async function fetchMontgomeryNews(query: string): Promise<NewsArticle[]>
     // Bright Data SERP API can return results in different fields depending on the parser
     const results = data.news_results || data.organic || [];
     
-    return results.map((item: any) => ({
+    return results.map((item: Record<string, string>) => ({
       title: item.title || item.text || "Untitled",
       link: item.link || item.url || "#",
       snippet: item.snippet || item.description || "",
