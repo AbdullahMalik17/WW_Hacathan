@@ -18,18 +18,22 @@ export async function GET() {
     const topCrimes = getTopCrimeTypes(crimes, 1);
     const topCrimeType = topCrimes.length > 0 ? topCrimes[0].type : "N/A";
     
-    // For Safety Score, we use the structured analysis from Gemini
-    // We pass a summary context to get the score
-    const context = buildAIContext();
-    const analysis = await getStructuredAnalysis(context);
-    
+    // Safety Score — AI-powered if key is present, fallback otherwise
+    let analysis = null;
+    try {
+      const context = buildAIContext();
+      analysis = await getStructuredAnalysis(context);
+    } catch {
+      // Gemini key missing or rate-limited — use static fallback values
+    }
+
     return NextResponse.json({
       totalCalls,
       totalCrimes,
       topCrimeType,
-      safetyScore: analysis?.safetyScore ?? 85, // Fallback score
+      safetyScore: analysis?.safetyScore ?? 85,
       trendDirection: analysis?.trendDirection ?? "stable",
-      summary: analysis?.summary ?? "Public safety in Montgomery remains stable based on recent data."
+      summary: analysis?.summary ?? "Public safety in Montgomery remains stable based on recent data.",
     });
   } catch (error) {
     console.error("Stats API error:", error);

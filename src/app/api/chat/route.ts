@@ -7,6 +7,16 @@ import { fetchMontgomeryNews } from "@/lib/brightdata";
 export const maxDuration = 60;
 
 export async function POST(request: Request): Promise<Response> {
+  if (!process.env.GOOGLE_GENERATIVE_AI_API_KEY) {
+    return new Response(
+      JSON.stringify({
+        error:
+          "AI service is not configured. Add GOOGLE_GENERATIVE_AI_API_KEY to your .env.local file.",
+      }),
+      { status: 503, headers: { "Content-Type": "application/json" } }
+    );
+  }
+
   try {
     const body = (await request.json()) as { messages: UIMessage[] };
     const { messages } = body;
