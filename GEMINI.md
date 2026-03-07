@@ -208,3 +208,16 @@ Wait for consent; never auto-create ADRs. Group related decisions (stacks, authe
 
 ## Code Standards
 See `.specify/memory/constitution.md` for code quality, testing, performance, security, and architecture principles.
+
+## Tech Stack (Locked — Feed This to Constitution)
+
+- **Framework:** Next.js 15 (App Router) with TypeScript strict mode
+- **Styling:** Tailwind CSS + shadcn/ui components
+- **Map:** Leaflet + react-leaflet (NO Google Maps key needed)
+- **AI Primary:** Google Gemini 2.5 Flash via `@ai-sdk/google`
+- **AI Streaming:** Vercel AI SDK (`ai` package) with `useChat` hook
+- **Web Scraping:** Bright Data SERP API + Web Unlocker (3 bonus points)
+- **Charts:** Recharts for data visualization
+- **Data Parsing:** papaparse for CSV processing
+- **Deployment:** Vercel (frontend + API routes, `maxDuration: 60`)
+- **Data Format:** CSV/GeoJSON files in `src/data/` + ArcGIS REST API
