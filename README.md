@@ -9,9 +9,13 @@ Built for the **World Wide Vibes Hackathon (GenAI.Works Academy)** by **Abdullah
 
 ---
 
-## 🖼️ System Architecture & Workflow
-![System Architecture](./image.png)
-*SafeMGM leverages agentic workflows to analyze local datasets and enrich them with real-time news context.*
+## GenAI Architecture
+
+![GenAI Architecture](docs/genai_architecture_slide.png)
+
+## Agentic Workflow
+
+![Agentic Workflow](docs/agentic_workflow_slide.png)
 
 ---
 
