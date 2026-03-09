@@ -28,13 +28,22 @@ export async function fetchMontgomeryNews(query: string): Promise<NewsArticle[]>
       if (response.ok) {
         const data = await response.json();
         if (data.articles) {
-          return data.articles.map((article: Record<string, string>) => ({
-            title: article.title || "Untitled",
-            link: article.url || "#",
-            snippet: article.description || "",
-            source: article.source?.name || "News",
-            date: article.publishedAt || "Recent"
-          }));
+          return data.articles.map((article: Record<string, unknown>) => {
+            const source = article.source;
+            const sourceName =
+              typeof source === "object" && source && "name" in source
+                ? (source as { name: string }).name
+                : typeof source === "string"
+                  ? source
+                  : "News";
+            return {
+              title: (article.title as string) || "Untitled",
+              link: (article.url as string) || "#",
+              snippet: (article.description as string) || "",
+              source: sourceName,
+              date: (article.publishedAt as string) || "Recent"
+            };
+          });
         }
       }
     } catch (error) {
