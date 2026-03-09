@@ -9,6 +9,12 @@ Built for the **World Wide Vibes Hackathon (GenAI.Works Academy)** by **Abdullah
 
 ---
 
+## 🖼️ System Architecture & Workflow
+![System Architecture](./ChatGPT%20Image%20Mar%209%2C%202026%2C%2009_48_13%20AM.png)
+*SafeMGM leverages agentic workflows to analyze local datasets and enrich them with real-time news context.*
+
+---
+
 ## 🖼️ Dashboard Screenshots
 | AI Analyst Terminal | Geospatial Intelligence Map |
 | :---: | :---: |
