@@ -1,8 +1,18 @@
 # SafeMGM — AI-Powered Public Safety Intelligence (Montgomery, AL)
 
+![SafeMGM Dashboard Hero](https://placehold.co/1200x600/0f172a/0d9488?text=SafeMGM+Dashboard+Hero)
+*A "Command Center" view of Montgomery's public safety trends and AI-driven analysis.*
+
 **SafeMGM** turns raw public safety records into a single, judge-ready dashboard you can query in plain English—combining **local 911 + crime datasets**, an **interactive safety map**, **trend analytics**, and **news context enrichment**.
 
 Built for the **World Wide Vibes Hackathon (GenAI.Works Academy)** by **Abdullah Malik**.
+
+---
+
+## 🖼️ Dashboard Screenshots
+| AI Analyst Terminal | Geospatial Intelligence Map |
+| :---: | :---: |
+| ![Chat Interface](https://placehold.co/600x400/0f172a/0d9488?text=AI+Safety+Analyst) | ![Safety Map](https://placehold.co/600x400/0f172a/0d9488?text=Safety+Map+View) |
 
 ---
 
@@ -101,6 +111,20 @@ Copy `.env.example` to `.env.local` and fill what you have.
 - **`BRIGHT_DATA_API_TOKEN`** + **`BRIGHT_DATA_SERP_ZONE`**: enables Bright Data SERP fallback
 
 If no news keys are provided, SafeMGM returns **sample news** to keep the UI functional for demos.
+
+---
+
+## Hackathon track
+- **Track**: Public Safety & Community Resilience (GenAI for Social Good)
+- **Challenge**: Transforming static municipal data into real-time, citizen-centric insights.
+
+---
+
+## Commercialization & Scalability
+SafeMGM is designed with a **city-agnostic architecture**, meaning it can be deployed for any city that provides CSV or GeoJSON open data (standard for 3,000+ US municipalities).
+- **SaaS for Small-Mid Cities**: Many cities lack the budget for custom safety dashboards. SafeMGM can be offered as a "Dashboard-as-a-Service."
+- **Real Estate Integration**: APIs for neighborhood safety scores can be sold to real estate platforms.
+- **Enterprise Enrichment**: Insurance companies can use the trend analytics for risk assessment.
 
 ---
 
